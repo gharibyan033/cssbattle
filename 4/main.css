@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    padding: 0;
+  }
+  .container {
+    position: relative;
+      width: 400px;
+      height: 300px;
+      position: relative;
+      background: #62306D;
+  }
+  .block {
+    
+    width:100px;
+    height: 100px;
+    background: #F7EC7D;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+  .block1 {
+    position: absolute;
+    top: 140px;
+    left: 50px;
+  }
+  .block2 {
+    position: absolute;
+    top: 140px;
+    left: 250px;
+  }
+  .block3 {
+    position: absolute;
+    top: 40px;
+    left: 150px;
+    rotate: 180deg;
+  }

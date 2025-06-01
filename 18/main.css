@@ -1,0 +1,85 @@
+.bg {
+   width: 400px;
+   height: 300px;
+   background: #5C434C; 
+}
+.container {
+    position: relative;
+}
+.tringle {
+    height: 80px;
+    width: 80px;
+    border-top-left-radius: 100%;
+}
+.tringle1 {
+    position: absolute;
+    background-color: #F09462;
+    top: 10px;
+    left: 10px;
+}
+.tringle2 {
+    position: absolute;
+    background-color:#F5D6B4;
+    top: 10px;
+    left: 110px;
+}
+.tringle3 {
+    position: absolute;
+    background-color:#F09462;
+    top: 10px;
+    left: 210px;
+}
+.tringle4 {
+    position: absolute;
+    background-color:#F5D6B4;
+    top: 10px;
+    left: 310px;
+}
+.tringle5 {
+    position: absolute;
+    background-color:#F5D6B4;
+    top: 110px;
+    left: 10px;
+}
+.tringle6 {
+    position: absolute;
+    background-color:#F09462;
+    top: 110px;
+    left: 110px;
+}
+.tringle7 {
+    position: absolute;
+    background-color:#F5D6B4;
+    top: 110px;
+    left: 210px;
+}
+.tringle8 {
+    position: absolute;
+    background-color:#F09462;
+    top: 110px;
+    left: 310px;
+}
+.tringle9 {
+    position: absolute;
+    background-color:#F09462;
+    top: 210px;
+    left: 10px;
+}
+.tringle10 {
+    position: absolute;
+    background-color:#F5D6B4;
+    top: 210px;
+    left: 110px;
+}
+.tringle11 {
+    position: absolute;
+    background-color:#F09462;
+    top: 210px;
+    left: 210px;
+}
+.tringle12 {
+    position: absolute;
+    background-color:#F5D6B4;
+    top: 210px;
+    left: 310px;
+}
