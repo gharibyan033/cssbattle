@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 400px;
+    height: 300px;
+    background: #ED6A9D;
+    position: relative;
+}
+.ear {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom:50px solid #050044;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+}
+.ear1 {
+    rotate: -30deg;
+   top: 50px; 
+   left: 110px;
+}
+.ear2 {
+     rotate: 30deg;
+   top: 50px; 
+   left: 240px;
+    
+}
+.face {
+    position: absolute;
+    width: 180px;
+    height: 150px;
+    border-radius: 50%;
+    background: #050044;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    
+}
+.nose {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom:20px solid #ED6A9D;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    top: 85px;
+    left: 50%;
+    translate: -50% -0;
+    rotate: 180deg;
+   
+    
+}
+.eye {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background: #FFC100;
+    border-top-left-radius: 50%;
+     border-bottom-right-radius: 50%;
+     rotate: 45deg;
+}
+.eye1 {
+   top: 40px; 
+   left: 30px;
+}
+.eye2 {
+    top: 40px; 
+   left: 110px;
+}
+.zrachok {
+    position: relative;
+ width: 10px;
+ height: 30px;
+ background: #050044;
+ border-radius: 50%;
+ rotate: -45deg;
+ 
+}
+.zrachok1 {
+top: 50%;
+left: 50%;
+translate: -50% -50%;
+}
+.zrachok2 {
+top: 50%;
+left: 50%;
+translate: -50% -50%;
+}

@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    background: #4F77FF;
+    width: 400px;
+    height: 300px;
+}
+
+.erankyun {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-width: 0px 165px 165px;
+    border-color: transparent transparent #1038BF transparent;
+    border-style: solid;
+    bottom: 0px;
+    left: 50%;
+    translate: -50% 0;
+
+}
+
+.lialusin {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    translate: -50% 0;
+    width: 80px;
+    aspect-ratio: 1 / 1;
+    background: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+.kisalusin {
+    position: absolute;
+
+    left: 50%;
+    translate: -50% 50%;
+    width: 80px;
+    aspect-ratio: 1 / 1;
+    background: #4F77FF;
+    border-radius: 50%;
+}
